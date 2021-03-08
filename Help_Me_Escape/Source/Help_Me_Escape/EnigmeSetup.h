@@ -17,5 +17,6 @@ class HELP_ME_ESCAPE_API UEnigmeSetup : public UBlueprintFunctionLibrary
 		UFUNCTION(BlueprintCallable, Category = "Energie")
 		static void EnergieSetupSolution(const FRandomStream seed,const int arraySize ,TArray<bool>& array);
 		UFUNCTION(BlueprintCallable, Category = "Energie")
-		static void EnergieSetupText(const TArray<bool>& value);
+		static void EnergieSetupText(const TArray<bool>& value, const TArray<FString>& inText, TArray<FString>& outText);
+
 };
