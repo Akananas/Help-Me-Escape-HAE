@@ -17,7 +17,6 @@ class HELP_ME_ESCAPE_API UButtonEnergie : public UButton
 	GENERATED_BODY()
 
 public:
-    UButtonEnergie();
 
    /* UPROPERTY()
         FLoadDelegate load;
